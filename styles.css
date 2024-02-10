@@ -4,7 +4,9 @@
 	height: 400px;
 }
 
-
+#grid>div:nth-child(5){
+	grid-column: span 2 / auto;
+}
 .one{
 	background-color: green;
 	grid-column-start: 1;
@@ -39,14 +41,14 @@ margin: 2px;
 	grid-row-end: 3;
 }
 
-.five{
+/* .five{
 		margin: 2px;
 	background-color: green;
 	grid-column-start:3;
 		grid-column-end:7; 
 	grid-row-start: 3;
 	grid-row-end: 4;
-}
+} */
 
 .six{
 	background-color: green;
